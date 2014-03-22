@@ -10,7 +10,7 @@
 				type: 'POST',
 				url: 'gng.php',
 				data: {name: name}
-			}, 2000).done(function(name){
+			}).done(function(name){
 				$(".content button").removeClass('animated')
 					.addClass('normal')
 					.text(name);
