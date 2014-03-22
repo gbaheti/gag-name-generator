@@ -52,41 +52,29 @@ button.animated{
     background-color:#d3d3d3;
     background-image:
         -webkit-linear-gradient(
-        -45deg,
-        #9bbeff 25%,
-        transparent 25%,
-        transparent 50%,
+        90deg,
+        #ff3535 50%,
         #ffffff 50%,
-        #9bbeff 75%,
-        transparent 75%,
         transparent
     );
     background-image:
         -moz-linear-gradient(
-        -45deg,
-        #9bbeff 25%,
-        transparent 25%,
-        transparent 50%,
+        90deg,
+        #ff3535 50%,
         #ffffff 50%,
-        #9bbeff 75%,
-        transparent 75%,
         transparent
     );
     background-image:
         -ms-linear-gradient(
-        -45deg,
-        #9bbeff 25%,
-        transparent 25%,
-        transparent 50%,
+        90deg,
+        #ff3535 50%,
         #ffffff 50%,
-        #9bbeff 75%,
-        transparent 75%,
         transparent
     );
     background-image:
         linear-gradient(
         90deg,
-        #9bbeff 50%,
+        #ff3535 50%,
         #ffffff 50%,
         transparent
     );
@@ -136,3 +124,6 @@ Animate the stripes
     background-position: 50px 50px;
   }
 }    
+.new{
+	content: ''
+}
