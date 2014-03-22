@@ -1,0 +1,138 @@
+@import url(http://fonts.googleapis.com/css?family=Share+Tech);
+*{
+	margin:0; padding: 0;
+	font-family: Share Tech, Helvetica, Arial, sans-serif;
+}
+body{
+}
+#main{
+	font-size: 4em;
+	text-align: center;
+	margin: 100px auto;
+}
+input[type=text]{
+	width: 400px;
+	font-size: 1em;
+	outline: none;
+	border: none;
+	border-bottom: 3px dotted black;
+}
+.content button.normal{
+	width: 700px;
+	height: 200px;
+	position: absolute;
+	left: 50%;
+	margin-left: -350px;
+	margin-top: 10px;
+	background: transparent;
+	border: 1px solid black;
+	outline: none;
+	font-size: 3em;
+}
+.content button.normal:hover{
+	cursor: pointer;
+	background: #F5F5F5;
+}
+.content button.normal:active{
+	padding-top: 5px;
+	background: #E8E8E8;
+}
+button.animated{
+	font-size: 3em;
+	width: 700px;
+	height: 200px;
+	position: absolute;
+	left: 50%;
+	margin-left: -350px;
+	margin-top: 10px;
+    display:inline-block;
+    border:0;
+    outline: none;
+    border-bottom-color:#ff6201;
+    background-color:#d3d3d3;
+    background-image:
+        -webkit-linear-gradient(
+        -45deg,
+        #9bbeff 25%,
+        transparent 25%,
+        transparent 50%,
+        #ffffff 50%,
+        #9bbeff 75%,
+        transparent 75%,
+        transparent
+    );
+    background-image:
+        -moz-linear-gradient(
+        -45deg,
+        #9bbeff 25%,
+        transparent 25%,
+        transparent 50%,
+        #ffffff 50%,
+        #9bbeff 75%,
+        transparent 75%,
+        transparent
+    );
+    background-image:
+        -ms-linear-gradient(
+        -45deg,
+        #9bbeff 25%,
+        transparent 25%,
+        transparent 50%,
+        #ffffff 50%,
+        #9bbeff 75%,
+        transparent 75%,
+        transparent
+    );
+    background-image:
+        linear-gradient(
+        90deg,
+        #9bbeff 50%,
+        #ffffff 50%,
+        transparent
+    );
+    -webkit-background-size:50px 50px;
+    -moz-background-size:50px 50px;
+    -ms-background-size:50px 50px;
+    background-size:50px 50px;
+    -webkit-animation:move 1s linear infinite;
+    -moz-animation:move 1s linear infinite;
+    -ms-animation:move 1s linear infinite;
+    animation:move 1s linear infinite;
+    overflow: hidden;
+}
+
+/*
+Animate the stripes
+*/   
+@-webkit-keyframes move{
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 50px 50px;
+  }
+}    
+@-moz-keyframes move{
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 50px 50px;
+  }
+}    
+@-ms-keyframes move{
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 50px 50px;
+  }
+}    
+@keyframes move{
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 50px 50px;
+  }
+}    

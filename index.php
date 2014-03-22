@@ -23,9 +23,8 @@
         <div class="content">
 			<div id="main">
 				my real name is <input type="text" name="name" id="name">.
-				<button>generate my gag name pls</button>
 			</div>
-
+			<button class="normal">generate my gag name pls</button>
         </div>
         
         <footer>
